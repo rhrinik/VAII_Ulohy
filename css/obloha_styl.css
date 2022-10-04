@@ -5,3 +5,41 @@ body {
     height: 100%;
     background-attachment: fixed;
 }
+
+img {
+    display: block;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -1124px;
+    margin-left: -1124px;
+}
+
+.bird {
+    background-image: url("../img/vtak.png");
+    width: 860px;
+    height: 751px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    position: absolute;
+    right: 0;
+}
+
+.top {
+    top: 0;
+}
+
+.bottom{
+    bottom: 0;
+}
+
+.left {
+    left: 0;
+    transform: rotateY(180deg);
+}
+
+.right {
+    right: 0;
+}
